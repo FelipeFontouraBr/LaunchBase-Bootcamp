@@ -36,8 +36,6 @@ Development of the challenges proposed during the Bootcamp LaunchBase,taught by 
 - Advanced Concepts
 - Extra features for a launch store
 
----
-
 ## :computer: Technologies
 
 - HTML
