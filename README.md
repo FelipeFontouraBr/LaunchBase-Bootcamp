@@ -1,7 +1,13 @@
 <h1 align="center">
     <img alt="GitHub language count" src="https://github.com/FelipeFontouraBr/LaunchBase-Bootcamp/blob/master/.github/launchbase.jpg">
 </h1>
-  
+
+<p align="center">
+  <a href="#bookmark-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#chart-with-upwards-trend-progress">Progress</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
 # :bookmark: About
 
 Development of the challenges proposed during the Bootcamp LaunchBase,taught by Professor [Mayk Brito](https://github.com/maykbrito) and distributed by [Rocketseat](https://rocketseat.com.br/). :rocket:
