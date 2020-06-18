@@ -2,7 +2,7 @@
     <img alt="GitHub language count" src="https://github.com/FelipeFontouraBr/LaunchBase-Bootcamp/blob/master/.github/launchbase.jpg">
 </h1>
   
-# bookmark: About
+# :bookmark: About
 
 Development of the challenges proposed during the Bootcamp LaunchBase,taught by Professor [Mayk Brito](https://github.com/maykbrito) and distributed by [Rocketseat](https://rocketseat.com.br/). :rocket:
 
