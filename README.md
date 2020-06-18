@@ -35,5 +35,17 @@ Development of the challenges proposed during the Bootcamp LaunchBase,taught by 
 - Advanced Nodejs
 - Advanced Concepts
 - Extra features for a launch store
+
+---
+
+## :computer: Technologies
+
+- HTML
+- CSS
+- JavaScript
+- NodeJS
+- SQL
+- PostgreSQL
+
 ----
 Learning and Developing - by Felipe Fontoura - [See my linkedin!](https://www.linkedin.com/in/fontourafelipe/) :computer:
