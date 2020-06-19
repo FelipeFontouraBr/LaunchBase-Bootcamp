@@ -22,5 +22,5 @@ for (let a = 0; a < usuarios.length; a++) {
     // Tuane trabalha com HTML, Node.js
 
     // a: unica variavel que esta dinamica
-    console.log(`${usuarios[a].nome} trabalha com ${usuarios[a].tecnologias}`)
+    console.log(`${usuarios[a].nome} trabalha com ${usuarios[a].tecnologias.join(', ')}`)
 }
