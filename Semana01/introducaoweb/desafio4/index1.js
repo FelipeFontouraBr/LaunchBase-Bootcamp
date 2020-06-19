@@ -25,7 +25,7 @@ function getAverageTransactionValue() {
     let sum = 0
 
     for(let transaction of user.transactions) {
-        sum += transaction.value
+        sum = sum + transaction.value
     }
 
     return sum / user.transactions.length
