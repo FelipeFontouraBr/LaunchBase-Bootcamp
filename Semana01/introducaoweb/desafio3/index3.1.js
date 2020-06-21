@@ -30,11 +30,13 @@ const usuarios = [
 function calculaSaldo(receitas, despesas) {
 
 // Preciso usar a função somaNumeros()
-const resultado = somaNumeros(numeros)
+const somaReceitas = somaNumeros(receitas);
+const somaDespesas = somaNumeros(despesas);
 
-let somaReceitas = 0;
-
-  // Deve retornar receita - despesas
+// Deve retornar receita - despesas
+const result = somaReceitas - somaDespesas
+// console.log(result)
+return result
 }
 
 // numeros é uma array
@@ -52,13 +54,15 @@ function somaNumeros(numeros) {
 // Percorra o Array de Usuarios
 for (let usuario of usuarios) {
    // Para cada usuário, chame uma função chamada calculaSaldo
-   const saldo  = calculaSaldo(usuario.receitas, usuario.despesas) 
+   const saldo  = calculaSaldo(usuario.receitas, usuario.despesas)
+   
+   //console.log(saldo.toFixed(2))
    
    // SE o saldo é POSITIVO ou NEGATIVO:
    const saldoPositivo = saldo >= 0
    if(saldoPositivo) {
-     console.log(`${usuario} possui saldo POSITIVO de ${saldo}`)
+    console.log(`${usuario.nome} possui saldo POSITIVO de ${saldo.toFixed(2)}`)
    } else {
-     console.log(`${usuario} possui saldo NEGATIVO de ${saldo}`) // Negativo
+    console.log(`${usuario.nome} possui saldo NEGATIVO de ${saldo.toFixed(2)}`) // Negativo
    }
 }
