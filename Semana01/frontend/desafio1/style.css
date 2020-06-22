@@ -27,6 +27,11 @@ header {
     color: white;
 }
 
+#link-header a:hover {
+    color: var(--color-green);
+    transition: 200ms;
+}
+
 .links a {
     padding: 30px;
     color: var(--color-bluestrong);
