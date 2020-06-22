@@ -45,5 +45,10 @@ header a:hover {
 
 .container h2, p {
     padding: 5px;
-    color: #0B1152;
+    color: #0B1152;    
+}
+
+#list {
+    list-style: none;
+    text-align: center;
 }
