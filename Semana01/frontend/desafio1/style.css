@@ -16,13 +16,13 @@ header {
     text-align: center;
 }
 
-header a {
+.links a {
     padding: 30px;
     color: #0B1152;
     text-decoration: none;
 }
 
-header a:hover {
+.links a:hover {
     color: #52CD7F;
     transition: 200ms;
 }
