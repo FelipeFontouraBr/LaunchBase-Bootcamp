@@ -1,5 +1,10 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
 
+:root {
+    --color-bluestrong: #0B1152;
+    --color-green: #52CD7F;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -14,16 +19,17 @@ body {
 header {
     padding: 30px;
     text-align: center;
+    border-bottom: 1px solid var(--color-bluestrong);
 }
 
 .links a {
     padding: 30px;
-    color: #0B1152;
+    color: var(--color-bluestrong);
     text-decoration: none;
 }
 
 .links a:hover {
-    color: #52CD7F;
+    color: var(--color-green);
     transition: 200ms;
 }
 
@@ -34,18 +40,18 @@ header {
 
 .container img {
     border-radius: 50%;
-    border: 3px solid #52CD7F;
+    border: 3px solid var(--color-green);
 }
 
 .container h1 {
     margin-top: 32px;
     font-size: 35px;
-    color: #0B1152;
+    color: var(--color-bluestrong);
 }
 
 .container h2, p {
     padding: 5px;
-    color: #0B1152;    
+    color: var(--color-bluestrong);   
 }
 
 #list {
