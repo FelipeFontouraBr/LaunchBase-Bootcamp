@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #E8F8F6;
+    background-color: #F1EFFF;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -35,4 +35,9 @@ header a:hover {
 .container img {
     border-radius: 50%;
     border: 3px solid #52CD7F;
+}
+
+.container h1 {
+    margin-top: 32px;
+    font-size: 35px;
 }
