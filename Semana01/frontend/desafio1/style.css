@@ -18,8 +18,13 @@ body {
 
 header {
     padding: 30px;
+    background-color: #7A60D1;
     text-align: center;
     border-bottom: 1px solid var(--color-bluestrong);
+}
+
+#link-header a {
+    color: white;
 }
 
 .links a {
@@ -61,4 +66,9 @@ header {
 
 #footer {
     text-align: center;
+}
+
+#footer a {
+    border-bottom: 2px solid var(--color-green);
+    padding: 5px;
 }
