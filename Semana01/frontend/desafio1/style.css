@@ -32,3 +32,7 @@ header a:hover {
     padding: 32px;
 }
 
+.container img {
+    border-radius: 50%;
+    border: 3px solid #52CD7F;
+}
