@@ -26,3 +26,9 @@ header a:hover {
     color: #52CD7F;
     transition: 200ms;
 }
+
+.container {
+    text-align: center;
+    padding: 32px;
+}
+
