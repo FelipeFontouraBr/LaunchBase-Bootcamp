@@ -52,3 +52,7 @@ header a:hover {
     list-style: none;
     text-align: center;
 }
+
+#footer {
+    text-align: center;
+}
