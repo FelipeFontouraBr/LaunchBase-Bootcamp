@@ -41,7 +41,7 @@ header {
 
 .links a:hover {
     color: var(--color-green);
-    transition: 200ms;
+    transition: 205ms;
 }
 
 .container {
