@@ -90,8 +90,17 @@ header {
     padding: 66px;
 }
 
+/*.cards :hover {
+    border: 3px solid blue;
+}*/
+
 .card {
     border: 1px solid black;
     border-radius: 8px;
     text-align: center;
+    cursor: pointer;
 }
+
+/*=== MODAL ===*/
+
+
