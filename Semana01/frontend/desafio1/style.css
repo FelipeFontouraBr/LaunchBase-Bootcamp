@@ -89,3 +89,9 @@ header {
     gap: 30px;
     padding: 66px;
 }
+
+.card {
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
