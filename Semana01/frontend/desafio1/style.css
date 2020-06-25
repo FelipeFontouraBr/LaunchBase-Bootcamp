@@ -80,4 +80,12 @@ header {
     padding: 5px;
 }
 
-/*=== Cards ===/*
+/*=== Cards from content.html===*/
+.cards {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 66px;
+}
