@@ -108,8 +108,8 @@ header {
     height: 100%;
     position: fixed;
     top: 0;
-    opacity: ;
-    visibility: ;
+    /*opacity: 0;
+    visibility: hidden;*/
 }
 
 .modal {
@@ -134,5 +134,24 @@ header {
     right: 8px;
     top: 8px;
     cursor: pointer;
+}
+
+/*.modal .close-modal :hover {
+    color: blue;
+
+}*/
+
+/* === MODAL.ACTIVE==*/
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 5%
 }
 
