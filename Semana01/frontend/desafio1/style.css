@@ -120,6 +120,14 @@ header {
     position: relative;
 }
 
+.maxime-modal {
+    color: black;
+    position: absolute;
+    right: 40px;
+    top: 8px;
+    cursor: pointer;
+}
+
 .modal .close-modal {
     color: black;
     position: absolute;
