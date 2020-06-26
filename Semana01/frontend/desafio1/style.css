@@ -92,10 +92,6 @@ header {
     padding: 66px;
 }
 
-/*.cards :hover {
-    border: 3px solid blue;
-}*/
-
 .card {
     border: 1px solid black;
     border-radius: 8px;
@@ -103,6 +99,22 @@ header {
     cursor: pointer;
     padding: 30px;
 }
+
+#starter:hover {
+    border: 2px solid var(--color-rocket);
+    transition: 100ms;
+}
+
+#launchbase:hover {
+    border: 2px solid #FD951F;
+    transition: 100ms;
+}
+
+#gostack:hover {
+    border: 2px solid #04D361;
+    transition: 100ms;
+}
+
 .card__image-container {
     margin-top: 60px;
 
@@ -178,11 +190,6 @@ header {
     top: 8px;
     cursor: pointer;
 }
-
-/*.modal .close-modal :hover {
-    color: blue;
-
-}*/
 
 /*===MODAL.ACTIVE==*/
 
