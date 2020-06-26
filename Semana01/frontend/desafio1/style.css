@@ -2,7 +2,7 @@
 
 :root {
     --color-bluestrong: white;
-    --color-green: #52CD7F;
+    --color-green: #6195f0e7;
     --color-rocket: #7A60D1;
 }
 
@@ -14,7 +14,7 @@
 
 body {
     /*background-color: #F1EFFF;*/
-    background-color: #131217;
+    background-image: url('./img/background.png');    
     font-family: 'Roboto', sans-serif;
 }
 
@@ -85,6 +85,8 @@ header {
 #list {
     list-style: none;
     text-align: center;
+    color: white;
+    opacity: 80%;
 }
 
 #footer {
@@ -108,8 +110,10 @@ header {
 }
 
 .card {
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 8px;
+    background-color: #131217;
+    opacity: 55%;
     text-align: center;
     cursor: pointer;
     padding: 30px;
@@ -118,16 +122,19 @@ header {
 #starter:hover {
     border: 2px solid var(--color-rocket);
     transition: 100ms;
+    opacity: 100%;
 }
 
 #launchbase:hover {
     border: 2px solid #FD951F;
     transition: 100ms;
+    opacity: 100%;
 }
 
 #gostack:hover {
     border: 2px solid #04D361;
     transition: 100ms;
+    opacity: 100%;
 }
 
 .card__image-container {
