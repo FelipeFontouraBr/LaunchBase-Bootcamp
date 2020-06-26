@@ -24,6 +24,14 @@ header {
     text-align: center;
     border-bottom: 1px solid var(--color-bluestrong);
 }
+#logo {
+    position: absolute;
+    margin-left: -180px;
+    margin-top: -10px;
+}
+#headertop {
+    margin-left: 180px;
+}
 
 #link-header a {
     color: white;
