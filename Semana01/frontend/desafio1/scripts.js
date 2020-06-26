@@ -15,14 +15,20 @@ for (let card of cards) {
     })
 }
 
-document.querySelector('.close-modal').addEventListener('click', function(){
-    modalOverlay.classList.remove('active')
-    modalOverlay.querySelector('iframe') = ``
-    modal.classList.remove('maximize')  
-})
 
+// Maximizar conteúdo
 document.querySelector('.maxime-modal').addEventListener('click', function(){
     if(!modal.classList.contains('maximize')){
         modal.classList.add('maximize')
     }   
 })
+
+// Fechar conteúdo
+document.querySelector('.close-modal').addEventListener('click', function(){
+    modalOverlay.classList.remove('active')
+    modal.classList.remove('maximize')
+    modalOverlay.querySelector('iframe') = ``      
+})
+
+// Fechar Maximização do conteúdo
+document.querySelector('.')
