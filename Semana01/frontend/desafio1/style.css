@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
 
 :root {
-    --color-bluestrong: #0B1152;
+    --color-bluestrong: white;
     --color-green: #52CD7F;
     --color-rocket: #7A60D1;
 }
@@ -14,20 +14,27 @@
 
 body {
     /*background-color: #F1EFFF;*/
-    background-color: #140a0a6b;
+    background-color: #131217;
     font-family: 'Roboto', sans-serif;
 }
 
 header {
     padding: 30px;
-    background-color: var(--color-rocket);
+    background-color: #131217;
     text-align: center;
     border-bottom: 1px solid var(--color-bluestrong);
 }
+
 #logo {
     position: absolute;
     margin-left: -180px;
     margin-top: -10px;
+}
+
+#back {
+    position: absolute;
+    margin-left: -27px;
+    margin-top: -2px;
 }
 #headertop {
     margin-left: 180px;
