@@ -15,3 +15,7 @@ for (let card of cards) {
 document.querySelector('.close-modal').addEventListener('click', function(){
     modalOverlay.classList.remove('active')
 })
+
+document.querySelector('.maxime-modal').addEventListener('click', function(){
+    modalOverlay.classList.contains('active')
+})
