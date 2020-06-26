@@ -20,7 +20,10 @@ for (let card of cards) {
 document.querySelector('.maxime-modal').addEventListener('click', function(){
     if(!modal.classList.contains('maximize')){
         modal.classList.add('maximize')
-    }   
+    } else {
+        modal.classList.remove('maximize')
+    }
+     
 })
 
 // Fechar conteúdo
@@ -30,5 +33,3 @@ document.querySelector('.close-modal').addEventListener('click', function(){
     modalOverlay.querySelector('iframe') = ``      
 })
 
-// Fechar Maximização do conteúdo
-document.querySelector('.')
