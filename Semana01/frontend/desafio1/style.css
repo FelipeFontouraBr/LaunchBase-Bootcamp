@@ -99,7 +99,17 @@ header {
     border-radius: 8px;
     text-align: center;
     cursor: pointer;
-    padding: 66px;
+    padding: 30px;
+}
+.card__image-container {
+    padding: 3px auto;
+
+}
+
+.subtitle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px
 }
 
 /*=== MODAL ===*/
