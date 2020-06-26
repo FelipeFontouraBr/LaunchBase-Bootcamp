@@ -84,6 +84,7 @@ header {
 .cards {
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: -60px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
@@ -102,7 +103,7 @@ header {
     padding: 30px;
 }
 .card__image-container {
-    padding: 3px auto;
+    margin-top: 60px;
 
 }
 
