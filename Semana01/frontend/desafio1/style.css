@@ -113,6 +113,16 @@ header {
     margin-top: 80px
 }
 
+#card1 {
+    border-radius: 50%;
+    border: 2.3px solid #7159C1;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    padding: 8px;
+    color: #7159C1;      
+}
+
 /*=== MODAL ===*/
 .modal-overlay {
     background-color: rgba(0, 0, 0, 0.7);
