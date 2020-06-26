@@ -3,6 +3,7 @@
 :root {
     --color-bluestrong: #0B1152;
     --color-green: #52CD7F;
+    --color-rocket: #7A60D1;
 }
 
 * {
@@ -19,7 +20,7 @@ body {
 
 header {
     padding: 30px;
-    background-color: #7A60D1;
+    background-color: var(--color-rocket);
     text-align: center;
     border-bottom: 1px solid var(--color-bluestrong);
 }
@@ -115,12 +116,12 @@ header {
 
 #card1 {
     border-radius: 50%;
-    border: 2.3px solid #7159C1;
+    border: 2.3px solid var(--color-rocket);
     width: 48px;
     height: 48px;
     font-size: 24px;
     padding: 8px;
-    color: #7159C1;      
+    color: var(--color-rocket);      
 }
 
 /*=== MODAL ===*/
