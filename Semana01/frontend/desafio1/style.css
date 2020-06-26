@@ -2,7 +2,7 @@
 
 :root {
     --color-bluestrong: white;
-    --color-green: #0bf7ff;
+    --color-green: #0be3ff;
     --color-rocket: #7A60D1;
 }
 
@@ -197,7 +197,7 @@ header {
 
 /*=== MODAL ===*/
 .modal-overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);    
     width: 100%;
     height: 100%;
     position: fixed;
@@ -208,6 +208,8 @@ header {
 
 .modal {
     background-color: white;
+    border: 3px solid var(--color-green);
+    border-radius: 8px;
     width: 90%;
     height: 90%;
     margin: 5vh auto;
