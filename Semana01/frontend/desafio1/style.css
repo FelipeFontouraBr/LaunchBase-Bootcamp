@@ -225,7 +225,7 @@ header {
 }
 
 .modal .close-modal {
-    color: black;
+    color: var(--color-green);
     position: absolute;
     right: 8px;
     top: 8px;
