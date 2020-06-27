@@ -217,7 +217,7 @@ header {
 }
 
 .maxime-modal {
-    color: black;
+    color: var(--color-green);
     position: absolute;
     right: 40px;
     top: 8px;
