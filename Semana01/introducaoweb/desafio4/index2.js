@@ -12,4 +12,13 @@ const transactionObject = {
     value: 50.5
 }
 
-function createTransaction()
+function createTransaction(transactionObject) {
+    // Se for credit, somar valor do crédito no saldo(balance)
+    if () {
+
+    }
+    // Se for debit, subtrair o valor do débito no saldo(balance)
+    else {
+        
+    }
+}
