@@ -7,6 +7,9 @@ const user = {
 }
 
 // Objeto de Transação
-
+const transactionObject = {
+    type: ["credit", "debit"],
+    value: 50.5
+}
 
 function createTransaction()
