@@ -7,18 +7,31 @@ const user = {
 }
 
 // Objeto de Transação
-const transactionObject = {
+const transaction = {
     type: ["credit", "debit"],
     value: 50.5
 }
 
-function createTransaction(transactionObject) {
-    // Se for credit, somar valor do crédito no saldo(balance)
-    if () {
+function createTransaction(transaction) {
 
-    }
-    // Se for debit, subtrair o valor do débito no saldo(balance)
-    else {
-        
-    }
+    const type1 = transaction.type[0]
+    const type2 = transaction.type[1]
+    const valueTotal = transaction.value
+    // Se for credit, somar valor do crédito no saldo(balance)
+   if (type1 === "credit") { 
+       console.log(type1)     
+        type1 += valueTotal;
+        user.transactions.push(transaction)
+   }
+    //Se for debit, subtrair o valor do débito no saldo(balance)
+   else {
+        type2 = type2 - valueTotal;
+   }
+
+   return createTransaction
+   console.log(createTransaction)
 }
+
+// Executando a função
+function createTransaction()
+
