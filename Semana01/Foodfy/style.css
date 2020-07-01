@@ -31,6 +31,11 @@ nav #menu {
 
 /*Configurações do Header*/
 
+#chef {
+    position: absolute;
+    margin: -150px 100px 0px 624px;
+}
+
 #text-header {
     padding: 117px 575px 211px 60px;
     background-color: #FBDFDB;
