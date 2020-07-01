@@ -7,4 +7,23 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    margin: 0 auto;
+    width: 940px;
+    background-color: white;
+}
 
+nav #menu {
+    display: flex;
+    padding: 30px;
+    color: black;
+}
+
+#sobre {
+    margin-left: 122.4px;
+    
+}
+
+#receitas {
+    margin-left: 30px;
+}
