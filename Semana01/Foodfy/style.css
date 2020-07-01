@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
 
+/*Configurações Gerais*/
 * {
     margin: 0px;
     padding: 0px;
@@ -26,4 +27,11 @@ nav #menu {
 
 #receitas {
     margin-left: 30px;
+}
+
+/*Configurações do Header*/
+
+#text-header {
+    padding: 117px 575px 211px 60px;
+    background-color: #FBDFDB;
 }
