@@ -30,13 +30,18 @@ nav #menu {
 }
 
 /*Configurações do Header*/
+header {
+    width: 940px;
+    height: 366px;
+    background-color: #FBDFDB;
+}
 
 #chef {
-    position: absolute;
-    margin: -150px 100px 0px 624px;
+    position: ;
+    margin-left: ;
 }
 
 #text-header {
-    padding: 117px 575px 211px 60px;
-    background-color: #FBDFDB;
+    
+    
 }
