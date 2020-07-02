@@ -75,6 +75,10 @@ header {
     grid-gap: 20px;
 }
 
+.info-pizzas h2 {
+    font-size: 18px;
+}
+
 .img {
     height: 140px;
     width: 300px;
