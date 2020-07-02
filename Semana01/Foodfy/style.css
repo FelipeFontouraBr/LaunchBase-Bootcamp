@@ -68,3 +68,9 @@ header {
     margin-bottom: 20px;
     font-size: 24px;
 }
+
+.img {
+    height: 140px;
+    width: 300px;
+    border-radius: 15px;
+}
