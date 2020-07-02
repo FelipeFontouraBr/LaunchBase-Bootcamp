@@ -33,15 +33,15 @@ nav #menu {
 header {
     width: 940px;
     height: 366px;
-    background-color: #FBDFDB;
+    background-color: #FBDFDB;    
 }
 
 #chef {
-    position: ;
-    margin-left: ;
+    position: absolute;
+    margin-left: 16px;
 }
 
 #text-header {
-    
+    padding-top: 50px;
     
 }
