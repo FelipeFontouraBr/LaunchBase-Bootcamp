@@ -49,3 +49,7 @@ header {
 #text-header h1 {
     margin: 117px 575px 211px 60px;
 }
+
+#text-header p {
+    margin: -200px 564px 117px 60px;
+}
