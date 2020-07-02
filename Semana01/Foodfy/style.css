@@ -69,6 +69,11 @@ header {
     font-size: 24px;
 }
 
+.info-pizzas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .img {
     height: 140px;
     width: 300px;
