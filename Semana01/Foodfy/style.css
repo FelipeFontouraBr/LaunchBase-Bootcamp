@@ -38,10 +38,14 @@ header {
 
 #chef {
     position: absolute;
-    margin-left: 16px;
+    
 }
 
 #text-header {
-    padding-top: 50px;
-    
+    display: flex;
+    flex-wrap: wrap;       
+}
+
+#text-header h1 {
+    margin-top: px;
 }
