@@ -33,7 +33,8 @@ nav #menu {
 header {
     width: 940px;
     height: 366px;
-    background-color: #FBDFDB;    
+    background-color: #FBDFDB;
+    border-radius: 30px;
 }
 
 #chef {
