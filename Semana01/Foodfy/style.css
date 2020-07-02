@@ -79,6 +79,11 @@ header {
     font-size: 18px;
 }
 
+.info-pizzas p {
+    font-size: 14px;
+    color: #777777;
+}
+
 .img {
     height: 140px;
     width: 300px;
