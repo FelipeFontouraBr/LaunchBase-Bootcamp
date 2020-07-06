@@ -19,6 +19,48 @@
     line-height: 28px;
 }
 
+#start {
+    
+    width: 940px;
+    height: 280px;
+}
+
+#start h1 {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #111111;
+    width: 940px;
+    margin-bottom: 1.8%;
+    margin-top: 6.7%;
+}
+
+#start p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+#our {
+    
+    width: 940px;
+    height: 280px;
+}
+
+#our h1 {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #111111;
+    width: 940px;
+    margin-bottom: 1.8%;
+    margin-top: 6.7%;
+}
+
+#our p {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
 /* Footer */
 footer {
     background-color: #EEEEEE;
