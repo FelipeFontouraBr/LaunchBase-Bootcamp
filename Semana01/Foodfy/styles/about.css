@@ -1,10 +1,19 @@
 /*Configurações do Header*/
-header {
+header about {
     width: 940px;
-    height: 366px;
-    background-color: #FBDFDB;
-    border-radius: 30px;
+    height: 280px;
 }
+
+header #about h1 {
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #111111;
+    width: 940px;
+    margin-bottom: 1.8%;
+    margin-top: .6%;
+}
+
+
 
 #chef {
     position: absolute;
