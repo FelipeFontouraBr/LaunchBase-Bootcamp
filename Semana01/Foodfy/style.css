@@ -96,5 +96,8 @@ header {
 
 /* Footer */
 footer {
-    
+    background-color: #EEEEEE;
+    width: auto;
+    height: 63px;
+    margin-top: 50px;
 }
