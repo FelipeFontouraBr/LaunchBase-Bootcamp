@@ -81,11 +81,13 @@ header {
 
 .info-pizzas h2 {
     font-size: 18px;
+    margin-top: 20px;
 }
 
 .info-pizzas p {
     font-size: 14px;
     color: #777777;
+    margin-bottom: 20px;
 }
 
 .img {
