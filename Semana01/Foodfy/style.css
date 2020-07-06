@@ -10,8 +10,12 @@
 
 body {
     margin: 0 auto;
-    width: 940px;
     background-color: white;
+}
+
+.content { 
+    margin: 0 auto;
+    width: 940px;
 }
 
 a {
@@ -88,4 +92,9 @@ header {
     height: 140px;
     width: 300px;
     border-radius: 15px;
+}
+
+/* Footer */
+footer {
+    
 }
