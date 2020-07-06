@@ -101,3 +101,10 @@ footer {
     height: 63px;
     margin-top: 50px;
 }
+
+footer p {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    padding: 23px;
+}
