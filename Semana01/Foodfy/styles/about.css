@@ -1,10 +1,10 @@
 /*Configurações do Header*/
-header about {
+#about {
     width: 940px;
     height: 280px;
 }
 
-header #about h1 {
+#about h1 {
     font-family: Roboto-Bold;
     font-size: 24px;
     color: #111111;
@@ -13,56 +13,10 @@ header #about h1 {
     margin-top: .6%;
 }
 
-
-
-#chef {
-    position: absolute;
-    margin: 66px 100px 0px 624px;
-}
-
-#text-header {
-    display: flex;
-    flex-wrap: wrap;      
-}
-
-#text-header h1 {
-    margin: 117px 575px 211px 60px;
-    font-size: 32px;
-}
-
-#text-header p {
-    margin: -200px 564px 117px 60px;
+#about p {
     font-size: 18px;
-}
-
-/* Imagens */
-#title-image h1 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-.info-pizzas {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-}
-
-.info-pizzas h2 {
-    font-size: 18px;
-    margin-top: 20px;
-}
-
-.info-pizzas p {
-    font-size: 14px;
-    color: #777777;
-    margin-bottom: 20px;
-}
-
-.img {
-    height: 140px;
-    width: 300px;
-    border-radius: 15px;
+    color: #444444;
+    line-height: 28px;
 }
 
 /* Footer */
