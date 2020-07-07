@@ -6,33 +6,7 @@ header {
     border-radius: 30px;
 }
 
-#chef {
-    position: absolute;
-    margin: 66px 100px 0px 624px;
-}
-
-#text-header {
-    display: flex;
-    flex-wrap: wrap;      
-}
-
-#text-header h1 {
-    margin: 117px 575px 211px 60px;
-    font-size: 32px;
-}
-
-#text-header p {
-    margin: -200px 564px 117px 60px;
-    font-size: 18px;
-}
-
 /* Imagens */
-#title-image h1 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
 .info-pizzas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
