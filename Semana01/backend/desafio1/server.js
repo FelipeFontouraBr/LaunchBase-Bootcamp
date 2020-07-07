@@ -7,7 +7,7 @@ const server = express()
 // Setting server to search static files:
 server.use(express.static('public'))
 
-server.set("view engine", "html")
+server.set("view engine", "njk")
 
 nunjucks.configure("views", {
     express: server

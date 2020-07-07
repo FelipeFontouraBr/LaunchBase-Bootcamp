@@ -1,7 +1,6 @@
 {
   "name": "desafio1",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
