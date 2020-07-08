@@ -67,6 +67,13 @@ header {
     visibility: visible;
 }
 
+iframe {
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 90%;
+    height: 17.8%;
+}
+
 /*== Footer ==*/
 footer {
     background-color: #EEEEEE;
