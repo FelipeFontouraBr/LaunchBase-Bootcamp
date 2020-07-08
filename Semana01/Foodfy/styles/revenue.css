@@ -51,6 +51,15 @@ header {
     background-color: #FFFFFF;
 }
 
+.modal #close {
+    color: #999999;
+    position: absolute;
+    margin: 54% 40% 2.7% 20.1%;
+    right: 8px; 
+    top: 8px;
+    cursor: pointer 
+}
+
 
 /*== Footer ==*/
 footer {
