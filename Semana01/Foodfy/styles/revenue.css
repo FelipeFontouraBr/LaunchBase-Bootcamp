@@ -30,7 +30,18 @@ header {
     border-radius: 15px;
 }
 
-/* Footer */
+/*== Modal ==*/
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden; /*Visibilidade escondido*/
+}
+
+/*== Footer ==*/
 footer {
     background-color: #EEEEEE;
     width: auto;
