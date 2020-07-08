@@ -10,3 +10,7 @@ for (let revenue of revenues) {
         modalOverlay.querySelector("iframe").src= ``;
     })
 }
+
+document.querySelector('.close').addEventListener("click", function(){
+    modalOverlay.classList.remove('active')
+})
