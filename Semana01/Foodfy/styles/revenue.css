@@ -41,6 +41,15 @@ header {
     visibility: hidden; /*Visibilidade escondido*/
 }
 
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;/*Alinhamento: 5vh(visão da altura) no topo e embaixo, e automatico nas laterais*/
+    position: relative;
+}
+
+
 /*== Footer ==*/
 footer {
     background-color: #EEEEEE;
