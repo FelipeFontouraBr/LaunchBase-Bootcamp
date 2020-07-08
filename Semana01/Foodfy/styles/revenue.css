@@ -37,16 +37,18 @@ header {
     height: 100%;
     position: fixed;
     top: 0;
-    opacity: 0;
+    /*opacity: 0;
     visibility: hidden; /*Visibilidade escondido*/
 }
 
 .modal {
     background-color: white;
-    width: 90%;
-    height: 90%;
-    margin: 5vh auto;/*Alinhamento: 5vh(visão da altura) no topo e embaixo, e automatico nas laterais*/
+    width: 660px;
+    height: 413px;
+    margin: 20vh auto;/*Alinhamento: 5vh(visão da altura) no topo e embaixo, e automatico nas laterais*/
     position: relative;
+    border-radius: 16px;
+    background-color: #FFFFFF;
 }
 
 
