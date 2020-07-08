@@ -60,6 +60,12 @@ header {
     cursor: pointer 
 }
 
+/*=== MODAL.ACTIVE===*/
+
+.modal-overlay.active {
+    opacity: 1; /*Quando tiver o modal ativado*/
+    visibility: visible;
+}
 
 /*== Footer ==*/
 footer {
