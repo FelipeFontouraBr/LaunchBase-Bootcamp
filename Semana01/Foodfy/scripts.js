@@ -7,7 +7,7 @@ for (let revenue of revenues) {
     revenue.addEventListener("click", function(){
         const revenueID = revenue.getAttribute("id");
         modalOverlay.classList.add('active')
-        modalOverlay.querySelector("iframe").src= `./assets/${revenueID}.png`;
+        modalOverlay.querySelector('img').src= `./assets/${revenueID}.png`;
     })
 }
 
