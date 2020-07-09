@@ -52,6 +52,7 @@ header {
 }
 
 .modal #close {
+    margin-top: 134px;
     color: #999999;
     position: absolute;
     margin: 54% 40% 2.7% 20.1%;
@@ -75,6 +76,7 @@ header {
 }
 
 #nome_receita {
+    margin-top: 20px;
     font-size: 24px;;
     color: #111111;
     text-align: center;
@@ -83,6 +85,7 @@ header {
 }
 
 #chef_receita {
+    margin-top: 5px;
     font-size: 18px;
     line-height: 28px;
     color: #777777;
