@@ -74,6 +74,24 @@ header {
     height: 17.8%;
 }
 
+#nome_receita {
+    font-size: 24px;;
+    color: #111111;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 'regular';
+}
+
+#chef_receita {
+    font-size: 18px;
+    line-height: 28px;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Roboto";
+    font-weight: 'regular';
+}
+
 /*== Footer ==*/
 footer {
     background-color: #EEEEEE;
