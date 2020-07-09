@@ -1,16 +1,16 @@
-const modalOverlay = document.querySelectorAll('.modal-overlay')
+const modalOverlay = document.querySelector('.modal-overlay')
 
 // Selecionando as receitas
-const revenues = document.querySelectorAll('info-pizzas')
+const revenues = document.querySelectorAll('.card')
 
 for (let revenue of revenues) {
     revenue.addEventListener("click", function(){
-        const videoID = revenue.getAttribute("id")
+        const revenueID = revenue.getAttribute("id");
         modalOverlay.classList.add('active')
-        modalOverlay.querySelector("iframe").src= ``;
+        modalOverlay.querySelector("iframe").src= `./assets/${revenueID}.png`;
     })
 }
 
-document.querySelector('.close').addEventListener("click", function(){
+document.querySelector('#close').addEventListener("click", function(){
     modalOverlay.classList.remove('active')
 })
