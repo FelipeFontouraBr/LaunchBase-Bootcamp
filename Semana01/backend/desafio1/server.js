@@ -22,7 +22,27 @@ server.get("/", function(req, res){
 })
 
 server.get("/index", function(req, res){
-    return res.render("index")
+    const index = {
+        avatar_url: "https://avatars0.githubusercontent.com/u/28929274?s=200&v=4",
+        name: "Rocketseat",
+        title: "Plataforma de educação em tecnologia",
+        tecnologies: [
+            {
+                technologie0:"JavaScript", 
+                technologie1: "ReactJS", 
+                technologie2: "React Native",
+                technologie3: "Nodejs"
+            }
+            
+        ],
+        links: [
+            { name: "Github", url: "https://github.com/Rocketseat", img: "./img/github-logo.svg" },
+            { name: "Instagram", url: "https://www.instagram.com/rocketseat_oficial/?hl=pt", img: "https://rocketseat.com.br/static/images/icons/instagram.svg" },
+            { name: "Facebook", url: "https://pt-br.facebook.com/rocketseat/", img: "https://rocketseat.com.br/static/images/icons/facebook.svg"}
+        ]
+    }
+
+    return res.render("index", {index: index})
 })
 
 server.use(function(req, res){
