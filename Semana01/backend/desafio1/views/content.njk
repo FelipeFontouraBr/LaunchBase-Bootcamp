@@ -51,44 +51,20 @@
 
         <section class="cards">
 
-            <div class="card" id="starter">
+            {% for item in items %}
+            <div class="card" id="{{item.id}}">
                 <div class="titlenumber">
-                    <span id="card1"><strong>01</strong></span>                    
+                    <span id="card1"><strong>{{ item.number }}</strong></span>                    
                 </div>
                 <div class="card__image-container">
-                    <img src="https://skylab.rocketseat.com.br/static/media/Starter.64c237cc.svg" alt="Starter">
+                    <img src="{{item.img}}" alt="Starter">
                 </div>
                 <div class="subtitle">
-                    <p>5 Módulos</p>
-                    <p>Gratuito</p>
+                    <p>{{ item.modules }}</p>
+                    <p>{{ item.price}}</p>
                 </div>
             </div>
-
-            <div class="card" id="launchbase">
-                <div class="titlenumber">
-                    <span id="card2"><strong>02</strong></span>
-                </div>
-                <div class="card__image-container">
-                    <img src="https://skylab.rocketseat.com.br/static/media/LaunchBase.08285320.svg" alt="LaunchBase">
-                </div>
-                <div class="subtitle">
-                    <p>24 Módulos</p>
-                    <p>Pago</p>
-                </div>
-            </div>
-
-            <div class="card" id="gostack">
-                <div class="titlenumber">
-                    <span id="card3"><strong>03</strong></span>
-                </div>
-                <div class="card__image-container">
-                    <img src="https://skylab.rocketseat.com.br/static/media/GoStack.83a178a0.svg" alt="GoStack">
-                </div>
-                <div class="subtitle">
-                    <p>20 Módulos</p>
-                    <p>Pago</p>
-                </div>
-            </div>
+            {% endfor %}
 
         </section>
 
