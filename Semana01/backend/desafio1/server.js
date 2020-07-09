@@ -3,6 +3,7 @@ const nunjucks = require('nunjucks')
 
 const server = express()
 
+const information = require("./data")
 
 // Setting server to search static files:
 server.use(express.static('public'))
@@ -10,13 +11,14 @@ server.use(express.static('public'))
 server.set("view engine", "njk")
 
 nunjucks.configure("views", {
-    express: server
+    express: server,
+    autoescape: false 
 })
 
 // Routes
 // Rota Raiz
 server.get("/", function(req, res){
-    return res.render("content")
+    return res.render("content", { items: information})
 })
 
 server.get("/index", function(req, res){
