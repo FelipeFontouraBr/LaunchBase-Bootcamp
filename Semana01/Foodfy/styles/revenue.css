@@ -52,7 +52,6 @@ header {
 }
 
 .modal #close {
-    margin-top: 134px;
     color: #999999;
     position: absolute;
     margin: 54% 40% 2.7% 20.1%;
@@ -71,8 +70,9 @@ header {
 .modal-content img {
     margin-top: 2.7%;
     margin-left: 5.1%;
-    width: 90%;
-    height: 17.8%;
+    width: 600px;
+    height: 230px;
+    border-radius: 15px;
 }
 
 #nome_receita {
