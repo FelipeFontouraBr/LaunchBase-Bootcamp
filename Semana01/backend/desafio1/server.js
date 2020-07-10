@@ -21,6 +21,7 @@ server.get("/", function(req, res){
     return res.render("content", { items: information})
 })
 
+// Página Index
 server.get("/index", function(req, res){
     const index = {
         avatar_url: "https://avatars0.githubusercontent.com/u/28929274?s=200&v=4",
@@ -45,8 +46,15 @@ server.get("/index", function(req, res){
     return res.render("index", {index: index})
 })
 
+// Página de erro
 server.use(function(req, res){
     res.status(404).render("not-found");
+})
+
+// Página do Curso
+server.get("/courses", function(req, res){
+    const id = req.query.id
+    
 })
 
 // Start server
