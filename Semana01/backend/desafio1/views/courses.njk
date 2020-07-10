@@ -1,0 +1,30 @@
+{% extends "layout.njk" %}
+
+    {% block head %}
+
+        <title>{{ item.title }}</title>
+
+    {% endblock %}
+
+{% block content %}
+
+        <section class="cards">
+
+            {% for item in items %}
+            <div class="card" id="{{item.id}}">
+                <div class="titlenumber">
+                    <span id="{{item.card}}"><strong>{{ item.number }}</strong></span>                    
+                </div>
+                <div class="card__image-container">
+                    <img src="{{item.img}}" alt="Starter">
+                </div>
+                <div class="subtitle">
+                    <p>{{ item.modules }}</p>
+                    <p>{{ item.price}}</p>
+                </div>
+            </div>
+            {% endfor %}
+
+        </section>
+        
+{% endblock %}
