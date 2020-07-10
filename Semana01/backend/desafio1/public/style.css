@@ -254,3 +254,21 @@ iframe {
     height: 100vh;
     margin: 0;
 }
+
+/*==COURSE PAGE ==*/
+.course {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.card__course-container {
+    position: relative;
+    padding-top: 62.5%;
+}
+
+.card__course-container  iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
