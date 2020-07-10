@@ -54,7 +54,18 @@ server.use(function(req, res){
 // Página do Curso
 server.get("/courses", function(req, res){
     const id = req.query.id
-    
+
+    const courses = information.find(function(courses){
+        if (courses.id == id) {
+            return true
+        }
+    })
+
+    if (!courses) {
+        return res.send("Course nor found!")
+    }
+
+    return res.render("courses", { item: courses})
 })
 
 // Start server
