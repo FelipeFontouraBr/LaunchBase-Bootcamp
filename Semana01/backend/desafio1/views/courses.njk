@@ -1,19 +1,21 @@
 {% extends "layout.njk" %}
 
-    {% block head %}
+{% block head %}
 
-        <title>{{ item.title }}</title>
+    <title>{{ item.title }}</title>
 
-    {% endblock %}
+{% endblock %}
 
 {% block content %}
 
-        <section class="cards">
+    <section class="cards">
 
-            {% for item in items %}
+        {% for item in items %}
             <div class="card" id="{{item.id}}">
                 <div class="titlenumber">
-                    <span id="{{item.card}}"><strong>{{ item.number }}</strong></span>                    
+                    <span id="{{item.card}}">
+                        <strong>{{ item.number }}</strong>
+                    </span>
                 </div>
                 <div class="card__image-container">
                     <img src="{{item.img}}" alt="Starter">
@@ -23,10 +25,10 @@
                     <p>{{ item.price}}</p>
                 </div>
             </div>
-            {% endfor %}
+        {% endfor %}
 
-        </section>
+    </section>
 
-        <h1 style="color: white">BEM VINDO A PAGINA CORRETA</h1>
-        
+    <h1 style="color: white">BEM VINDO A PAGINA CORRETA</h1>
+
 {% endblock %}
