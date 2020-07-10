@@ -2,7 +2,7 @@ module.exports = [
     {
         id: "starter",
         number: "01",
-        title: "Start Cursos",
+        title: "Starter Cursos",
         card: "card1",
         img: "https://skylab.rocketseat.com.br/static/media/Starter.64c237cc.svg",
         modules: "5 Módulos",
