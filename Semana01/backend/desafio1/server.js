@@ -12,7 +12,8 @@ server.set("view engine", "njk")
 
 nunjucks.configure("views", {
     express: server,
-    autoescape: false 
+    autoescape: false,
+    noCache: true 
 })
 
 // Routes
@@ -46,26 +47,25 @@ server.get("/index", function(req, res){
     return res.render("index", {index: index})
 })
 
+/*
 // Página de erro
 server.use(function(req, res){
     res.status(404).render("not-found");
-})
+})*/
 
 // Página do Curso
-server.get("/courses", function(req, res){
+server.get("/courses", function(req, res) {  
     const id = req.query.id
-
-    const courses = information.find(function(courses){
-        if (courses.id == id) {
+    const courses = information.find(function(courses) {
+        if (courses.id == id) { 
             return true
         }
     })
 
     if (!courses) {
-        return res.send("Course nor found!")
+        return res.send("Video not found")
     }
-
-    return res.render("courses", { item: courses})
+    return res.render("courses", { item: courses })  
 })
 
 // Start server
