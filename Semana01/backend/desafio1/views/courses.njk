@@ -8,27 +8,25 @@
 
 {% block content %}
 
-    <section class="cards">
+    <div id="wrapper" class="course">
+        <h1>{{ item.title }}</h1>
+    </div>
 
-        {% for item in items %}
-            <div class="card" id="{{item.id}}">
-                <div class="titlenumber">
-                    <span id="{{item.card}}">
-                        <strong>{{ item.number }}</strong>
-                    </span>
-                </div>
-                <div class="card__image-container">
-                    <img src="{{item.img}}" alt="Starter">
-                </div>
-                <div class="subtitle">
-                    <p>{{ item.modules }}</p>
-                    <p>{{ item.price}}</p>
-                </div>
+    <section class="course">
+
+        <div class="card" id="{{item.id}}">
+            <div class="card__course-container">
+                <iframe src="https://rocketseat.com.br/{{item.id}}" frameborder="0"></iframe>
             </div>
-        {% endfor %}
+            <div class="card__content">
+                <p>{{item.title}}</p>
+            </div>
+            <div class="card__info">
+                <p>{{item.duration}}</p>
+                <p class="card__price">{{item.price}}</p>
+            </div>
+        </div>
 
     </section>
-
-    <h1 style="color: white">BEM VINDO A PAGINA CORRETA</h1>
 
 {% endblock %}
