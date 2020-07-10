@@ -266,9 +266,12 @@ iframe {
     padding-top: 62.5%;
 }
 
-.card__course-container  iframe{
-    width: 100%;
+.card__course-container iframe {
+    width: 106.9%;
     height: 100%;
+    left: -25px;
     position: absolute;
-    top: 0;
+    top: -23px;
+    background-color: white;
+    border-radius: 8px;
 }
