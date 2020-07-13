@@ -1,19 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% extends "layout.njk" %}
 
-        <link rel="stylesheet" href="./styles/main.css">
-        <link rel="stylesheet" href="./styles/style.css">
-
+{% block head %}
         <title>Home</title>
+{% endblock %}
 
     </head>
     <body>
 
         <div class="content">
 
+            {% block menu%}
             <nav>
                 <div id="menu">
                     <img src="./assets/logo.png" alt="Logo" id="logo">
@@ -21,7 +17,9 @@
                     <a href="./revenue.html" id="receitas">Receitas</a>
                 </div>
             </nav>
+            {% endblock%}
 
+            {% block content %}
             <header>
                 <div id="text-header">
                     <h1>
@@ -67,8 +65,10 @@
                     <p>por Vania Steroski</p>
                 </div>
             </div>
-        </div>
+            {% endblock %}
 
+        </div>
+        
         <footer>
             <p>Todos direitos reservados, receitas Foodfy</p>
         </footer>
