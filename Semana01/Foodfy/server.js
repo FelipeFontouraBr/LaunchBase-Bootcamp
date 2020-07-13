@@ -4,6 +4,8 @@ const nunjucks = require('nunjucks')
 const server = express()
 
 // Setting server
+server.use(express.static('public'))
+
 server.set("view engine", "html")
 
 nunjucks.configure("views", {
