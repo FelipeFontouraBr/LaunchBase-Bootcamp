@@ -4,7 +4,9 @@
 const revenues = document.querySelectorAll('.card')
 
 for (let revenue of revenues) {
-
+    card.addEventListener("click", function(){
+        
+    })
 }
 
 /*
