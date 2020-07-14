@@ -1,11 +1,12 @@
 // const modalOverlay = document.querySelector('.modal-overlay')
 
 // Selecionando as receitas
-const revenues = document.querySelectorAll('.card')
+const cards = document.querySelectorAll('.card')
 
-for (let revenue of revenues) {
-    card.addEventListener("click", function(){
-        
+for (let card of cards) {
+    card.addEventListener("click", function() {
+        const revenueId = card.getAttribute("id");
+        window.location.href = `/revenue?id=${revenueId}`
     })
 }
 
