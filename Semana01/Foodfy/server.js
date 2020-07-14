@@ -23,12 +23,12 @@ server.get("/", function(req, res){
 })
 
 // About
-server.get("/about.html", function(req, res){
+server.get("/about", function(req, res){
     return res.render('about')
 })
 
 // Revenue
-server.get("/revenue.html", function(req, res){
+server.get("/revenue", function(req, res){
     return res.render("revenue", { items: information })
 })
 
