@@ -24,39 +24,39 @@ server.get("/", function(req, res){
         title_more: "Mais acessadas",
         revenues: [
             {
-                revenue: "./assets/burger.png",
+                img: "./assets/burger.png",
                 title: "Triplo bacon burger",
                 subtitle: "por Jorge Relato"
             },
             {
-                revenue: "./assets/pizza.png",
+                img: "./assets/pizza.png",
                 title: "Pizza 4 estações",
                 subtitle: "por Fabiana Melo"
             },
             {
-                revenue: "./assets/espaguete.png",
+                img: "./assets/espaguete.png",
                 title: "Triplo bacon burger",
                 subtitle: "por Júlia Kinoto"
             },
             {
-                revenue: "./assets/lasanha.png",
+                img: "./assets/lasanha.png",
                 title: "Lasanha mac n' cheese",
                 subtitle: "por Juliano Vieira"
             },
             {
-                revenue: "./assets/doce.png",
+                img: "./assets/doce.png",
                 title: "Docinhos pão-do-céu",
                 subtitle: "por Ricardo Golvea"
             },
             {
-                revenue: "./assets/asinhas.png",
+                img: "./assets/asinhas.png",
                 title: "Asinhas de frango ao barbecue",
                 subtitle: "por Vania Steroski"
             },
         ]
     }
 
-    return res.render('index', {revenuesIndex: index})
+    return res.render('index', {infoIndex: index})
 })
 
 // About
