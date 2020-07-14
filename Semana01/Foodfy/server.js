@@ -56,7 +56,7 @@ server.get("/", function(req, res){
         ]
     }
 
-    return res.render('index')
+    return res.render('index', {revenuesIndex: index})
 })
 
 // About
