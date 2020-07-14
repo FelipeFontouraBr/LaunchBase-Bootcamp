@@ -26,20 +26,22 @@
                         <strong>As melhores receitas</strong>
                     </h1>
                     <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro</p>
-                    <img src="{{ revenuesIndex.avatar_chef }}" alt="chef" id="chef">
+                    <img src="{{ infoIndex.avatar_chef }}" alt="chef" id="chef">
                 </div>
             </header>
 
             <div id="title-image">
-                <h1>{{ revenuesIndex.title_more }}</h1>
+                <h1>{{ infoIndex.title_more }}</h1>
             </div>
             <div class="info-pizzas">
                 
+                {% for revenue in infoIndex.revenues%}
                 <div>
-                    <img src="./assets/burger.png" alt="Foto-Burger" class="img">
-                    <h2>Triplo bacon burger</h2>
-                    <p>por Jorge Relato</p>
-                </div>               
+                    <img src="{{ revenue.img }}" alt="Foto-{{revenue.title}}" class="img">
+                    <h2>{{ revenue.title }}</h2>
+                    <p>{{ revenue.subtitle }}</p>
+                </div>
+                {% endfor %}               
             </div>
             {% endblock %}
 
