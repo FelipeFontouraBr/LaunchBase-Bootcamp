@@ -26,22 +26,23 @@
                         <strong>As melhores receitas</strong>
                     </h1>
                     <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro</p>
-                    <img src="{{ infoIndex.avatar_chef }}" alt="chef" id="chef">
+                    <img src="./assets/chef.png" alt="chef" id="chef">
                 </div>
             </header>
 
             <div id="title-image">
-                <h1>{{ infoIndex.title_more }}</h1>
+                <h1>Mais acessadas</h1>
             </div>
             <div class="info-pizzas">
-                
-                {% for revenue in infoIndex.revenues%}
+
+            {% for item in items %}    
                 <div>
-                    <img src="{{ revenue.img }}" alt="Foto-{{revenue.title}}" class="img">
-                    <h2>{{ revenue.title }}</h2>
-                    <p>{{ revenue.subtitle }}</p>
+                    <img src="{{ item.image }}" alt="Foto- {{item.title}}" class="img">
+                    <h2>{{ item.title }}</h2>
+                    <p>{{ item.author }}</p>
                 </div>
-                {% endfor %}               
+            {% endfor %}
+
             </div>
             {% endblock %}
 

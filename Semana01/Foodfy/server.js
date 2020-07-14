@@ -18,45 +18,8 @@ nunjucks.configure("views", {
 
 //Routes
 // Index
-server.get("/", function(req, res){
-    const index = {
-        avatar_chef: "./assets/chef.png",
-        title_more: "Mais acessadas",
-        revenues: [
-            {
-                img: "./assets/burger.png",
-                title: "Triplo bacon burger",
-                subtitle: "por Jorge Relato"
-            },
-            {
-                img: "./assets/pizza.png",
-                title: "Pizza 4 estações",
-                subtitle: "por Fabiana Melo"
-            },
-            {
-                img: "./assets/espaguete.png",
-                title: "Triplo bacon burger",
-                subtitle: "por Júlia Kinoto"
-            },
-            {
-                img: "./assets/lasanha.png",
-                title: "Lasanha mac n' cheese",
-                subtitle: "por Juliano Vieira"
-            },
-            {
-                img: "./assets/doce.png",
-                title: "Docinhos pão-do-céu",
-                subtitle: "por Ricardo Golvea"
-            },
-            {
-                img: "./assets/asinhas.png",
-                title: "Asinhas de frango ao barbecue",
-                subtitle: "por Vania Steroski"
-            },
-        ]
-    }
-
-    return res.render('index', {infoIndex: index})
+server.get("/", function(req, res){    
+    return res.render("index", { items: information })  
 })
 
 // About
