@@ -29,7 +29,7 @@ server.get("/about.html", function(req, res){
 
 // Revenue
 server.get("/revenue.html", function(req, res){
-    return res.render('revenue')
+    return res.render("revenue", { items: information })
 })
 
 // Problem 404
