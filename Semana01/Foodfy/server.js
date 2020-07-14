@@ -23,13 +23,18 @@ server.get("/", function(req, res){
 })
 
 // About
-server.get("/about", function(req, res){
+server.get("/about.html", function(req, res){
     return res.render('about')
 })
 
 // Revenue
-server.get("/revenue", function(req, res){
+server.get("/revenue.html", function(req, res){
     return res.render("revenue", { items: information })
+})
+
+// List Revenue
+server.get("/listrevenue.html", function(req, res) {
+    return res.render("listrevenue")
 })
 
 // Problem 404
