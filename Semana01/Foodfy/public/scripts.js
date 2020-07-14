@@ -1,8 +1,13 @@
-const modalOverlay = document.querySelector('.modal-overlay')
+// const modalOverlay = document.querySelector('.modal-overlay')
 
 // Selecionando as receitas
 const revenues = document.querySelectorAll('.card')
 
+for (let revenue of revenues) {
+
+}
+
+/*
 for (let revenue of revenues) {
     revenue.addEventListener("click", function(){
         const revenueID = revenue.getAttribute("id");
@@ -19,4 +24,4 @@ for (let revenue of revenues) {
 
 document.querySelector('#close').addEventListener("click", function(){
     modalOverlay.classList.remove('active')
-})
+})*/
