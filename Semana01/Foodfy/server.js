@@ -33,7 +33,7 @@ server.get("/revenue.html", function(req, res){
 })
 
 // List Revenue
-server.get("/listrevenue.html", function(req, res) {
+server.get("/listrevenue", function(req, res) {
     return res.render("listrevenue")
 })
 
