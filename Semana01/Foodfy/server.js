@@ -34,7 +34,12 @@ server.get("/revenue.html", function(req, res){
 
 // List Revenue
 server.get("/listrevenue", function(req, res) {
-    return res.render("listrevenue")
+    const id = req.query.id
+    const revenue = information.find(function(revenue){
+        return revenue.id == id
+    })
+
+    return res.render("listrevenue", { item: revenue })
 })
 
 // Problem 404

@@ -18,11 +18,11 @@
 
     {% block content %}
     <section class="info-pizzas">
-
-        {% for item in items %}
+        
+        {% for item in items%}
         <div class="card" id="#">
             <div class="card_image">
-                <img src="" alt="Foto" class="img">
+                <img src="{{ item.image }}" alt="Foto" class="img">
             </div>
             <div class="card_title">
                 <h2>Teste</h2>
@@ -42,29 +42,13 @@
                 <h2>Teste</h2>
                 <p>Teste</p>
             </div>
-        </div>
+        </div>        
         {% endfor %}
 
     </section>
     {% endblock %}
 
 </div>
-
-<!--
-MODAL
-<div class="modal-overlay">
-<div class="modal">
-    <div class="modal-content">
-        <img src="" alt="">
-    </div>
-    <div class="descricao">
-        <p id="nome_receita"></p>
-        <p id="chef_receita"></p>
-    </div>
-    <div id="close">Fechar modal</div>
-</div>
-</div>
--->
 
 <footer>
 <p>Todos direitos reservados, receitas Foodfy</p>
