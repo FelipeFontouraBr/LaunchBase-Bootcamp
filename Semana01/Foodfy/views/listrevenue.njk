@@ -18,14 +18,13 @@
 
     {% block content %}
     <section class="info-pizzas">
-        
-        {% for item in items%}
+
         <div class="card" id="#">
             <div class="card_image">
                 <img src="{{ item.image }}" alt="Foto" class="img">
             </div>
             <div class="card_title">
-                <h2>Teste</h2>
+                <h2>{{ item.title }}</h2>
             </div>
             <div class="card_subtitle">
                 <p>Teste</p>
@@ -42,8 +41,7 @@
                 <h2>Teste</h2>
                 <p>Teste</p>
             </div>
-        </div>        
-        {% endfor %}
+        </div>       
 
     </section>
     {% endblock %}
