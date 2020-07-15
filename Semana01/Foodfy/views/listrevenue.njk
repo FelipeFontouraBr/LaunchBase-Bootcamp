@@ -30,8 +30,14 @@
                 <p>{{ item.author }}</p>
             </div>
             <div class="card_revenue">
-                <div class="title"><h2>Ingredientes</h2> <button class="hiden">Esconder</button></div>                
-                <p>{{ item.ingredients }}</p>
+                <div class="title"><h2>Ingredientes</h2> <button class="hiden">Esconder</button></div>
+
+                <ul class="ingredients">
+                    {% for ingredient in item.ingredients %}
+                        <li>{{ ingredient }}</li>
+                    {% endfor %}
+                </ul>                
+                
             </div>
             <div class="card_prepared">
                 <div class="title"><h2>Modo de Preparo</h2> <button class="show">Mostrar</button></div> 
