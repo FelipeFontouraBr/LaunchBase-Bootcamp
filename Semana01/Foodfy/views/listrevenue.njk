@@ -32,7 +32,7 @@
             <div class="card_revenue">
                 <div class="title"><h2>Ingredientes</h2> <button class="hiden">Esconder</button></div>
 
-                <ul class="ingredients">
+                <ul class="hiden-ingredients">
                     {% for ingredient in item.ingredients %}
                         <li>{{ ingredient }}</li>
                     {% endfor %}
@@ -41,11 +41,11 @@
             </div>
             <div class="card_prepared">
                 <div class="title"><h2>Modo de Preparo</h2> <button class="show">Mostrar</button></div> 
-                <p class="prepare display">{{ item.preparation }}</p>
+                <p class="hiden-prepare display">{{ item.preparation }}</p>
             </div>
             <div class="card_info">
-                <div class="title"><h2>Informações Adicionais</h2> <button class="hiden">Esconder</button></div> 
-                <p class="info">{{ item.information }}</p>
+                <div class="title"><h2>Informações Adicionais</h2> <button class="hiden-info">Esconder</button></div> 
+                <p class="hiden-info">{{ item.information }}</p>
             </div>
         </div>       
 
