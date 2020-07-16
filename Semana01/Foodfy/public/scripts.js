@@ -3,12 +3,19 @@
 // Selecionando as receitas
 const cards = document.querySelectorAll('.card')
 
+// Show and Hiden
+const x = document.querySelector('.ingredients')
+const y = document.querySelector('.prepare')
+const z = document.querySelector('.info')
+
 for (let card of cards) {
     card.addEventListener("click", function() {
         const revenueId = card.getAttribute("id");
         window.location.href = `/listrevenue?id=${revenueId}`
     })
 }
+
+
 
 /*
 for (let revenue of revenues) {
