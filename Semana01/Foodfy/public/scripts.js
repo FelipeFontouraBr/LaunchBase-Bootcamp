@@ -6,7 +6,7 @@ const cards = document.querySelectorAll('.card')
 // Show and Hiden
 const x = document.querySelector('.hiden-ingredients')
 const y = document.querySelector('.hiden-prepare')
-const z = document.querySelector('.hiden-info')
+const z = document.querySelector('.hiden-information')
 
 
 
