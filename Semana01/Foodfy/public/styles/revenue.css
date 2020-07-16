@@ -32,18 +32,46 @@ header {
 }
 
 
+/*== Setting about lisrevenue ==*/
+
 .ingredientes,
 .prepare,
 .info {
     color: #111111;
-    margin-left: 150px;
     max-width: 1100px;    
-}.ingredientes,
+}
+
+.ingredientes,
 .prepare,
 .info p {
     text-align: justify;
 
 }
+
+.info-pizza {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.info-pizza h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.info-pizza p {
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.img-list {
+    height: 140px;
+    width: 300px;
+    border-radius: 15px;    
+    
+}
+
 
 /*== Mostrar ==*/
 .display {
