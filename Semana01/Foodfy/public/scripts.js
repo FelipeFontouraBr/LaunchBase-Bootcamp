@@ -8,7 +8,12 @@ const x = document.querySelector('.hiden-ingredients')
 const y = document.querySelector('.hiden-prepare')
 const z = document.querySelector('.hiden-information')
 
-
+for (let card of cards) {
+    card.addEventListener("click", function() {
+        const revenueId = card.getAttribute("id");
+        window.location.href = `/listrevenue?id=${revenueId}`
+    })
+}
 
 document
 .querySelector('.hiden')
@@ -35,10 +40,12 @@ document
 .addEventListener('click', function(){
     if(!z.classList.contains('display')){
         z.classList.add('display')
-    }else{
+    } else{
         z.classList.remove('display')
     }      
 })
+
+
 document
 .querySelector('.button')
 .addEventListener('click', function(){
