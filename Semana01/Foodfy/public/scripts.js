@@ -4,38 +4,50 @@
 const cards = document.querySelectorAll('.card')
 
 // Show and Hiden
-const x = document.querySelector('.ingredients')
-const y = document.querySelector('.prepare')
-const z = document.querySelector('.info')
+const x = document.querySelector('.hiden-ingredients')
+const y = document.querySelector('.hiden-prepare')
+const z = document.querySelector('.hiden-info')
 
-for (let card of cards) {
-    card.addEventListener("click", function() {
-        const revenueId = card.getAttribute("id");
-        window.location.href = `/listrevenue?id=${revenueId}`
-    })
-}
+
 
 document
 .querySelector('.hiden')
 .addEventListener('click', function(){
-    if(!ul.classList.contains('display')){
-        ul.classList.add('display')
-    } else {
-        ul.classList.remove('display')
+    if(!x.classList.contains('display')){
+        x.classList.add('display')
+    } else{
+        x.classList.remove('display')
     }
 })
 
 document
 .querySelector('.show')
 .addEventListener('click', function(){
-    if(p.classList.contains('display')){
-        p.classList.remove('display')
-    }else{
-        p.classList.add('display')
+    if(y.classList.contains('display')){
+        y.classList.remove('display')
+    } else{
+        y.classList.add('display')
     }      
 })
 
-
+document
+.querySelector('.hiden-info')
+.addEventListener('click', function(){
+    if(!z.classList.contains('display')){
+        z.classList.add('display')
+    }else{
+        z.classList.remove('display')
+    }      
+})
+document
+.querySelector('.button')
+.addEventListener('click', function(){
+    if(button.innerHTML == 'Esconder'){
+        button.innerHTML = 'Mostrar'
+    } else{
+        button.innerHTML = 'Esconder'
+    }
+})
 
 /*
 for (let revenue of revenues) {
