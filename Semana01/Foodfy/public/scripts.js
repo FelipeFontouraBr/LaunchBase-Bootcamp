@@ -16,13 +16,23 @@ for (let card of cards) {
 }
 
 document
-.querySelector('.show')
+.querySelector('.hiden')
 .addEventListener('click', function(){
     if(!ul.classList.contains('display')){
         ul.classList.add('display')
     } else {
         ul.classList.remove('display')
     }
+})
+
+document
+.querySelector('.show')
+.addEventListener('click', function(){
+    if(p.classList.contains('display')){
+        p.classList.remove('display')
+    }else{
+        p.classList.add('display')
+    }      
 })
 
 
