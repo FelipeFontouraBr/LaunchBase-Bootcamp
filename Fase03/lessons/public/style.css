@@ -30,3 +30,9 @@ header {
 .links a + a {
     margin-left: 32px;
 }
+
+.links a {
+    text-decoration: none;
+    color: #777;
+    position: relative;
+}
