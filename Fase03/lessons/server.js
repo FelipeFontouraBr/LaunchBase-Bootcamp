@@ -5,6 +5,7 @@ const server = express()
 
 // Setting server to search static files:
 server.use(express.static('public'))
+server.use(routes)
 
 server.set("view engine", "njk")
 
