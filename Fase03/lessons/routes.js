@@ -8,3 +8,7 @@ routes.get('/', function(req, res) {
 routes.get('/instructors', function(req, res) {
     return res.render("teachers/index")
 })
+
+routes.get('/students', function(req, res){
+    return res.send("students")
+})
