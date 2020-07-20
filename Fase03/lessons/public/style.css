@@ -22,3 +22,11 @@ header {
     text-align: center;
     box-sizing: border-box;
 }
+
+.links {
+    font-size: 22px;
+}
+
+.links a + a {
+    margin-left: 32px;
+}
