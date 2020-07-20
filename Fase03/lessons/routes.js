@@ -12,3 +12,6 @@ routes.get('/instructors', function(req, res) {
 routes.get('/students', function(req, res){
     return res.send("students")
 })
+
+// Export server:
+module.exports = routes
