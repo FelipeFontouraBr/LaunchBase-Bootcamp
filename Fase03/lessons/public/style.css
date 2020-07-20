@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #15141A;
-    --accent-color: #05e209cc;
+    --accent-color: #051be2cc;
 }
 
 * { 
@@ -51,7 +51,7 @@ header {
     content: "";
     width: 0;
     height: 2px;
-    background-color: var(--primary-color);
+    background-color: var(--accent-color);
     position: absolute;
     left: 0;
     bottom: -4px;
