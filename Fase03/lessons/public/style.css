@@ -41,7 +41,7 @@ header {
 
 .links a.active {
     font-weight: bold;
-    color: var(--primary-color);
+    color: var(--titles-color);
 }
 
 .links a:hover {
