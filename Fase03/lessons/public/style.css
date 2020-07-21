@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #15141A;
-    --accent-color: #051be2cc;
+    --primary-color: #549bb893;
+    --accent-color: #504B43;
+    --titles-color: #EE7B30;
 }
 
 * { 
@@ -34,7 +35,7 @@ header {
 
 .links a {
     text-decoration: none;
-    color: #777;
+    color: var(--titles-color);
     position: relative;
 }
 
@@ -72,4 +73,6 @@ header {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    box-shadow: 2px 4px 8px -4px rgba(0,0,0,0.9);
 }
