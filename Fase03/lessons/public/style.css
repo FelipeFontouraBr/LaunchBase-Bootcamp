@@ -116,3 +116,9 @@ header {
     font-weight: bold;
     font-size: 18px;
 }
+
+.details h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--titles-color)
+}
