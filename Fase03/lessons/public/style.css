@@ -69,4 +69,7 @@ header {
     min-height: 400px;
 
     margin: 45px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
