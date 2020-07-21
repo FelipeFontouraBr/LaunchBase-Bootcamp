@@ -101,3 +101,10 @@ header {
 .details .item:last-child {
     border: none;
 }
+
+.details h3,
+.details .item div:nth-child(1) {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--titles-color)
+}
