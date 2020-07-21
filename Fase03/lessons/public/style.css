@@ -61,3 +61,10 @@ header {
     width: 100%;
     transition: width 400ms ease-in-out;
 }
+
+/*== CARD ==*/
+.card {
+    background-color: white;
+    width: 800px;
+    min-height: 400px;
+}
