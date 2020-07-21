@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #549bb893;
+    --secundary-color: #ace42ae7;
     --accent-color: #504B43;
     --titles-color: #257a13d8;
 }
@@ -121,4 +122,9 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     color: var(--titles-color)
+}
+
+.details .item span {
+    padding: 8px 16px;
+    background-color: var();
 }
