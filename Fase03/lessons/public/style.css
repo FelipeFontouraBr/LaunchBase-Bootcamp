@@ -67,4 +67,6 @@ header {
     background-color: white;
     width: 800px;
     min-height: 400px;
+
+    margin: 45px auto;
 }
