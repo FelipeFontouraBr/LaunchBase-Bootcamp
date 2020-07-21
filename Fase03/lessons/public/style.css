@@ -3,7 +3,7 @@
 :root {
     --primary-color: #549bb893;
     --accent-color: #504B43;
-    --titles-color: #EE7B30;
+    --titles-color: #257a13d8;
 }
 
 * { 
@@ -87,4 +87,13 @@ header {
     to {
         opacity: 1;
     }
+}
+
+.details {
+    padding: 32px;
+}
+
+.details .item {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 16px 0;
 }
