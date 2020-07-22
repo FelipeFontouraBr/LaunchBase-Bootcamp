@@ -17,7 +17,7 @@ Development of the challenges proposed during the Bootcamp LaunchBase,taught by 
 ### :trophy: Fase 02
 - <strike>Introduction to WEB programming</strike> :heavy_check_mark:
 - <strike>Starting at the Front End</strike> :heavy_check_mark:
-- Building "Foodfy" Project Ok
+- <strike>Building "Foodfy" Project</strike>
 
 - Starting at the Backend Ok
 
