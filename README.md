@@ -18,7 +18,7 @@ Development of the challenges proposed during the Bootcamp LaunchBase,taught by 
 - <strike>Introduction to WEB programming</strike> :heavy_check_mark:
 - <strike>Starting at the Front End</strike> :heavy_check_mark:
 - <strike>Building "Foodfy" Project</strike> :heavy_check_mark:
-- <strike>Starting at the Backend</strike>
+- <strike>Starting at the Backend</strike> :heavy_check_mark:
 
 - Refactoring Project "Foodfy"
 
