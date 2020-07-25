@@ -33,6 +33,13 @@ exports.post = function (req, res) {
         created_at
     })
 
+    // Setting Json
+    fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {
+        if(err) {
+            return res.send("Erro na escrita campeão")
+        }
+    })
+
 
 
 }
