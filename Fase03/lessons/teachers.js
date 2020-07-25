@@ -17,7 +17,8 @@ exports.post = function (req, res) {
     // Data processing
     let {avatar_url, name, birth, select, type_class, instruments} = req.body
 
-
+    birth = Date.parse(birth)
+    const created_at = Date.now()
 
 
 
