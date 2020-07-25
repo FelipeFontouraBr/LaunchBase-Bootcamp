@@ -21,6 +21,18 @@ exports.post = function (req, res) {
     const created_at = Date.now()
     const id = Number(data.teachers.length + 1)
 
+    // Data organization
+    data.instructors.push({
+        id,
+        avatar_url,
+        name,
+        birth,
+        select,
+        type_class,
+        instruments,
+        created_at
+    })
+
 
 
 }
