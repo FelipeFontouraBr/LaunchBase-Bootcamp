@@ -14,6 +14,9 @@ exports.post = function (req, res) {
         }
     }
 
+    // Data processing
+    let {avatar_url, name, birth, select, type_class, instruments} = req.body
+
 
 
 
