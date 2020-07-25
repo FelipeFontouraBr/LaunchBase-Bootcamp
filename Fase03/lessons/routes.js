@@ -15,9 +15,7 @@ routes.get('/teachers/create', function(req, res) {
 })
 
 
-routes.post("/teachers", function(req, res){
-    return res.send("recebido")
-})
+routes.post("/teachers", teachers.post)
 
 routes.get('/students', function(req, res){
     return res.send("students")
