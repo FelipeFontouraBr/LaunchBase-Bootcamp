@@ -3,25 +3,24 @@
 {% block content %}
 
     <form class="card" method="POST" action="/teachers">
-
-        <section class="avatar" style="background: url(https://source.unsplash.com/collection/415470/500x500) no-repeat center center / cover">
+        <section class="avatar" 
+        style="background: url(https://source.unsplash.com/collection/415470/500x500) no-repeat center center / cover">
         </section>
-
         <section class="details">
 
-            <h3>Detalhes</h3>
+            <h3>Novo Instrutor</h3>
 
             <div class="item">
                 <div>Avatar URL</div>
                 <div>
-                    <input type="url" name="avatar_url" placeholder="http://">
+                   <input type="url" name="avatar_url" placeholder="http://">
                 </div>
             </div>
-            
+
             <div class="item">
                 <div>Instrutor</div>
                 <div>
-                    <input type="text" name="name" placeholder="Digite seu nome completo">
+                    <input type="text" name="name" placeholder="Nome do Instrutor">
                 </div>
             </div>
 
@@ -35,34 +34,33 @@
             <div class="item">
                 <div>Grau de Escolaridade</div>
                 <div>
-                    <select name="select" id="#">
-                        <option value="ensinom">Ensino Médio Completo</option>
-                        <option value="ensinos">Ensino Superior Completo</option>
-                        <option value="mestrado">Mestrado</option>
-                        <option value="doutorado">Doutorado</option>
+                    <select name="select">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
                     </select>
                 </div>
             </div>
 
             <div class="item">
-                <div>Tipo de Aula</div>
+                <div>Sexo</div>
                 <div>
-                    <span><input type="radio" name="class" value="P" checked> Presencial</span>
-                    <span><input type="radio" name="class" value="D"> À distância</span>
+                    <span><input type="radio" name="gender" value="M" checked> Masculino</span>
+                    <span><input type="radio" name="gender" value="F"> Feminino</span>
                 </div>
             </div>
 
             <div class="item">
-                <div>Instrumentos</div>
+                <div>Área de Atuação</div>
                 <div>
-                    <input type="text" name="instruments" placeholder="Digite e separe os instrumentos por vírgula">
+                    <input type="text" name="services" placeholder="Separe os serviços prestados por vírgula">
                 </div>
             </div>
 
             <button type="submit">Salvar</button>
 
         </section>
-
     </form>
 
 {% endblock %}
