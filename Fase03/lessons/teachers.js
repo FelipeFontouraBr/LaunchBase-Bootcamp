@@ -1,7 +1,8 @@
 // Validação dos campos utilizando keys e constructor Object
 
+// FS -> O sistema irá criar um data
 const fs = require('fs')
-const data = require('./data.json')
+//const data = require('./data.json')
 
 // CREATE
 exports.post = function (req, res) {
@@ -15,14 +16,14 @@ exports.post = function (req, res) {
     }
 
     // Data processing
-    let {avatar_url, name, birth, select, type_class, instruments} = req.body
+    //let {avatar_url, name, birth, select, type_class, instruments} = req.body
 
-    birth = Date.parse(birth)
+    /*birth = Date.parse(birth)
     const created_at = Date.now()
     const id = Number(data.teachers.length + 1)
 
     // Data organization
-    data.instructors.push({
+    /*data.instructors.push({
         id,
         avatar_url,
         name,
@@ -31,7 +32,7 @@ exports.post = function (req, res) {
         type_class,
         instruments,
         created_at
-    })
+    })*/
 
     // Setting Json
     fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {
