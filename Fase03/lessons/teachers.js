@@ -38,6 +38,8 @@ exports.post = function (req, res) {
         if(err) {
             return res.send("Erro na escrita campeão")
         }
+
+        return res.direct("/teachers")
     })
 
 
