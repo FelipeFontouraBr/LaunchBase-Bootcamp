@@ -11,7 +11,7 @@ exports.post = function (req, res) {
 
     for (key of keys) {
         if (req.body[key] == "") {
-            return res.send('Por favor, existem campos que faltam preencha todos os campos')
+            return res.send('Por favor, ha campos que faltam preencha todos os campos')
         }
     }
 
