@@ -1,6 +1,7 @@
 {
   "teachers": [
     {
+      "id": 1,
       "avatar_url": "https://github.com/FelipeFontouraBr",
       "name": "Felipe",
       "birth": 1594944000000,
@@ -9,14 +10,6 @@
       "instruments": "Viola",
       "created_at": 1596115909675
     },
-    {
-      "avatar_url": "https://github.com/FelipeFontouraBr",
-      "name": "Bruna",
-      "birth": 1594166400000,
-      "select": "ensinom",
-      "type_class": "P",
-      "instruments": "Piano",
-      "created_at": 1596115938167
-    }
+
   ]
 }
