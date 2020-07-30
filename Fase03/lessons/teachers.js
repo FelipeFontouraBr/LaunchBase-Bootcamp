@@ -2,7 +2,7 @@
 
 // FS -> O sistema irá criar um data
 const fs = require('fs')
-//const data = require('./data.json')
+const data = require('./data.json') //chamamos para que os dados sejam todos guardados
 
 // CREATE
 exports.post = function (req, res) {
