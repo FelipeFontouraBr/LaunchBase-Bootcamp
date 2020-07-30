@@ -18,24 +18,24 @@ exports.post = function (req, res) {
     // Data processing
     //let {avatar_url, name, birth, select, type_class, instruments} = req.body
 
-    /*birth = Date.parse(birth)
-    const created_at = Date.now()
-    const id = Number(data.teachers.length + 1)
+    req.body.birth = Date.parse(req.body.birth)
+    req.body.created_at = Date.now()
+    /*const id = Number(data.teachers.length + 1)*/
 
     // Data organization
-    /*data.instructors.push({
-        id,
+    data.teachers.push(req.body)
+        /*id,
         avatar_url,
         name,
         birth,
         select,
         type_class,
         instruments,
-        created_at
-    })*/
+        created_at*/
+    
 
     // Setting Json
-    fs.writeFile("data.json", JSON.stringify(req.body), function(err) {
+    fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {
         if(err) {
             return res.send("Erro na escrita campeão")
         }
