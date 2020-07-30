@@ -16,11 +16,11 @@ exports.post = function (req, res) {
     }
 
     // Data processing
-    //let {avatar_url, name, birth, select, type_class, instruments} = req.body
+    let {avatar_url, name, birth, select, type_class, instruments} = req.body
 
     req.body.birth = Date.parse(req.body.birth)
     req.body.created_at = Date.now()
-    /*const id = Number(data.teachers.length + 1)*/
+    const id = Number(data.teachers.length + 1)/*Pego o tamanho do array e adiciono mais um*/
 
     // Data organization
     data.teachers.push(req.body)
