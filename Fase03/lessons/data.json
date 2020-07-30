@@ -3,11 +3,22 @@
     {
       "id": 1,
       "avatar_url": "https://github.com/FelipeFontouraBr",
-      "name": "Feliponis",
-      "birth": "2020-07-14",
-      "select": "mestrado",
-      "type_class": "D",
-      "instruments": "Piano"
+      "name": "Felipe Fontoura",
+      "birth": 1594771200000,
+      "select": "ensinom",
+      "type_class": "P",
+      "instruments": "Piano, Cello",
+      "created_at": 1596116710737
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://github.com/FelipeFontouraBr",
+      "name": "Bruna",
+      "birth": 1595548800000,
+      "select": "ensinom",
+      "type_class": "P",
+      "instruments": "Violão",
+      "created_at": 1596116731826
     }
   ]
 }
