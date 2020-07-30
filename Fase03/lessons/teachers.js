@@ -35,14 +35,14 @@ exports.post = function (req, res) {
     })*/
 
     // Setting Json
-   /*fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {
+    fs.writeFile("data.json", JSON.stringify(req.body), function(err) {
         if(err) {
             return res.send("Erro na escrita campeão")
         }
 
-        return res.direct("/teachers")
-    })*/
+        return res.redirect("/teachers")
+    })
 
-    return res.send(req.body)
+    //return res.send(req.body)
 
 }
