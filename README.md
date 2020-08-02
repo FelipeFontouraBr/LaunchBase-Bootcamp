@@ -23,7 +23,7 @@ Development of the challenges proposed during the Bootcamp LaunchBase,taught by 
 - Neste
 
 ### :trophy: Fase 03
-- Gym Control
+- Gym Control - ok
 - Admin Project "Foodfy"
 - Persisting application data
 - Persisting data from the "Foodfy" Project
