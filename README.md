@@ -20,7 +20,6 @@ Development of the challenges proposed during the Bootcamp LaunchBase,taught by 
 - <strike>Building "Foodfy" Project</strike> :heavy_check_mark:
 - <strike>Starting at the Backend</strike> :heavy_check_mark:
 - <strike>Refactoring Project "Foodfy"</strike> :heavy_check_mark:
-- Neste
 
 ### :trophy: Fase 03
 - Gym Control - ok
