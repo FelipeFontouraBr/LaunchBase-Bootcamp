@@ -22,7 +22,7 @@ Development of the challenges proposed during the Bootcamp LaunchBase,taught by 
 - <strike>Refactoring Project "Foodfy"</strike> :heavy_check_mark:
 
 ### :trophy: Fase 03
-- Gym Control - ok
+- Gym Control 
 - Admin Project "Foodfy"
 - Persisting application data
 - Persisting data from the "Foodfy" Project
