@@ -28,7 +28,7 @@
 
             <div class="item">
                 <div>Tipo de Aula</div>
-                <div>Presencial</div>
+                <div>{{ type_class }}</div>
             </div>
 
             <div class="item">
@@ -36,7 +36,7 @@
                 <div>
 
                     {% for instrument in instruments %}
-                        <span>{{ instrument.avatar_url }}</span>
+                        <span>{{ instrument }}</span>
                     {% endfor %}
                 </div>
             </div>
