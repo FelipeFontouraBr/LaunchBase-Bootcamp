@@ -7,6 +7,13 @@ const data = require('./data.json') //chamamos para que os dados sejam todos gua
 // SHOW
 exports.show = function(req, res) {
     const { id } = req.params
+
+    // procurar dentro do data.js o teacher
+    const foundTeacher = data.teachers.find(function(teachers){
+        return teachers.id == id
+    })
+
+    if (!foundTeacher) return res.send("Teachers not found!")
 }
 
 // CREATE
