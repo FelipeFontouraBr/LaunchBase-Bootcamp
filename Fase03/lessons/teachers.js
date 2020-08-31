@@ -4,6 +4,11 @@
 const fs = require('fs')
 const data = require('./data.json') //chamamos para que os dados sejam todos guardados
 
+// SHOW
+exports.show = function(req, res) {
+    const { id } = req.params
+}
+
 // CREATE
 exports.post = function (req, res) {
 
