@@ -14,6 +14,8 @@ exports.show = function(req, res) {
     })
 
     if (!foundTeacher) return res.send("Teachers not found!")
+
+    return res.render("teachers/show", { teacher: foundTeacher})
 }
 
 // CREATE
