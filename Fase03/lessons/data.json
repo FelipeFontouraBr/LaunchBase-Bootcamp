@@ -19,6 +19,16 @@
       "type_class": "P",
       "instruments": "Violão",
       "created_at": 1596116731826
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://github.com/FelipeFontouraBr",
+      "name": "Fontoura",
+      "birth": 761702400000,
+      "select": "doutorado",
+      "type_class": "P",
+      "instruments": "Cello, Viola",
+      "created_at": 1598880564008
     }
   ]
 }
