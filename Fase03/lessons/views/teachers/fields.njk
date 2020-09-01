@@ -3,21 +3,21 @@
 <div class="item">
     <div>Avatar URL</div>
     <div>
-        <input type="url" name="avatar_url" placeholder="http://">
+        <input type="url" name="avatar_url" placeholder="http://"  value="{{ teacher.avatar_url }}">
     </div>
 </div>
 
 <div class="item">
     <div>Instrutor</div>
     <div>
-        <input type="text" name="name" placeholder="Nome do Instrutor" value="{{ teachers.avatar_url }}">
+        <input type="text" name="name" placeholder="Nome do Instrutor"  value="{{ teacher.name }}">
     </div>
 </div>
 
 <div class="item">
     <div>Data de Nascimento</div>
     <div>
-        <input type="date" name="birth">
+        <input type="date" name="birth" value="{{ teacher.birth }}">
     </div>
 </div>
 
@@ -36,17 +36,33 @@
 <div class="item">
     <div>Tipo de Aula</div>
     <div>
-        <span><input type="radio" name="type_class" value="Presencial" checked="checked">
-            Presencial</span>
-        <span><input type="radio" name="type_class" value="À distância">
-            À Distância</span>
+        <span>
+            <input 
+                type="radio" 
+                name="type_class" 
+                value="Presencial" 
+                {% if teacher.type_class == 'Presencial' %}
+                    checked
+                {% endif %}>
+                Presencial
+        </span>
+        <span>
+            <input 
+                type="radio" 
+                name="type_class" 
+                value="À distância" 
+                {% if teacher.type_class == 'À distância' %}
+                    checked
+                {% endif %}>
+                À Distância
+        </span>
     </div>
 </div>
 
 <div class="item">
     <div>Área de Atuação / Tipo de Instrumentos</div>
     <div>
-        <input type="text" name="instruments" placeholder="Digite e separe por vírgula">
+        <input type="text" name="instruments" placeholder="Digite e separe por vírgula" value="{{ teacher.instruments }}">
     </div>
 </div>
 

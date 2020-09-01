@@ -6,7 +6,7 @@
       "name": "Felipe Fontoura",
       "birth": 1594771200000,
       "select": "ensino superior completo",
-      "type_class": "P",
+      "type_class": "Presencial",
       "instruments": "Piano, Cello",
       "created_at": 1596116710737
     },
@@ -16,7 +16,7 @@
       "name": "Bruna",
       "birth": 1595548800000,
       "select": "doutorado",
-      "type_class": "P",
+      "type_class": "Presencial",
       "instruments": "Violão",
       "created_at": 1596116731826
     },
