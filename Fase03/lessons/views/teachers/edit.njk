@@ -1,0 +1,66 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+    <form class="card" method="POST" action="/teachers">
+        <section class="avatar" 
+        style="background: url(https://source.unsplash.com/collection/415470/500x500) no-repeat center center / cover">
+        </section>
+        <section class="details">
+
+            <h3>Novo Instrutor</h3>
+
+            <div class="item">
+                <div>Avatar URL</div>
+                <div>
+                   <input type="url" name="avatar_url" placeholder="http://">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Instrutor</div>
+                <div>
+                    <input type="text" name="name" placeholder="Nome do Instrutor">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Data de Nascimento</div>
+                <div>
+                    <input type="date" name="birth">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Grau de Escolaridade</div>
+                <div>
+                    <select name="select">
+                        <option value="Ensino Médio Completo">Ensino Médio Completo</option>
+                        <option value="Ensino Superior Completo">Ensino Superior Completo</option>
+                        <option value="Mestrado">Mestrado</option>
+                        <option value="Doutorado">Doutorado</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Tipo de Aula</div>
+                <div>
+                    <span><input type="radio" name="type_class" value="Presencial" checked> Presencial</span>
+                    <span><input type="radio" name="type_class" value="À distância"> À Distância</span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Área de Atuação / Tipo de Instrumentos</div>
+                <div>
+                    <input type="text" name="instruments" placeholder="Digite e separe por vírgula">
+                </div>
+            </div>
+
+            <button type="submit">Salvar</button>
+
+        </section>
+    </form>
+
+{% endblock %}
