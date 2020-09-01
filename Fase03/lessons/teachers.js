@@ -19,7 +19,7 @@ exports.show = function(req, res) {
     const teacher = {
         ...foundTeacher,
         birth: "",
-        type_class: "",
+        //type_class: "",
         instruments: foundTeacher.instruments.split(","),
         created_at: "",
     }

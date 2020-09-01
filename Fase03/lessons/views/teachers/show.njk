@@ -28,7 +28,7 @@
 
             <div class="item">
                 <div>Tipo de Aula</div>
-                <div>{{ type_class }}</div>
+                <div>{{ "Presencial" if teacher.type_class == "P" else "À distância" }}</div>
             </div>
 
             <div class="item">
