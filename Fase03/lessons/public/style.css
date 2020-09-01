@@ -175,6 +175,10 @@ a.button {
     text-decoration: none;
 }
 
+a.button:hover {
+    background-color: #60aaca;
+}
+
 section {
     border-radius: 8px 0px 0px 8px;
 }
