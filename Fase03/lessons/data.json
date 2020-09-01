@@ -5,7 +5,7 @@
       "avatar_url": "https://github.com/FelipeFontouraBr",
       "name": "Felipe Fontoura",
       "birth": 1594771200000,
-      "select": "ensinom",
+      "select": "ensino superior completo",
       "type_class": "P",
       "instruments": "Piano, Cello",
       "created_at": 1596116710737
@@ -15,7 +15,7 @@
       "avatar_url": "https://github.com/FelipeFontouraBr",
       "name": "Bruna",
       "birth": 1595548800000,
-      "select": "ensinom",
+      "select": "doutorado",
       "type_class": "P",
       "instruments": "Violão",
       "created_at": 1596116731826
@@ -23,12 +23,12 @@
     {
       "id": 3,
       "avatar_url": "https://github.com/FelipeFontouraBr",
-      "name": "Fontoura",
-      "birth": 761702400000,
-      "select": "doutorado",
-      "type_class": "P",
-      "instruments": "Cello, Viola",
-      "created_at": 1598880564008
+      "name": "Caroline",
+      "birth": 555120000000,
+      "select": "mestrado",
+      "type_class": "À distância",
+      "instruments": "Teclado, Piano",
+      "created_at": 1598887311322
     }
   ]
 }

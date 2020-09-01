@@ -10,12 +10,21 @@ exports.show = function(req, res) {
 
     // procurar dentro do data.js o teacher
     const foundTeacher = data.teachers.find(function(teachers){
-        return teachers.id == id
+        return id == teachers.id
     })
 
     if (!foundTeacher) return res.send("Teachers not found!")
 
-    return res.render("teachers/show", { teacher: foundTeacher})
+    // Correção dos dados
+    const teacher = {
+        ...foundTeacher,
+        birth: "",
+        type_class: "",
+        instruments: foundTeacher.instruments.split(","),
+        created_at: "",
+    }
+
+    return res.render("teachers/show", { teacher })
 }
 
 // CREATE
