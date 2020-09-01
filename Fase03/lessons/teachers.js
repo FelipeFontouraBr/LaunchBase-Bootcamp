@@ -3,6 +3,7 @@
 // FS -> O sistema irá criar um data
 const fs = require('fs')
 const data = require('./data.json') //chamamos para que os dados sejam todos guardados
+const { age, date } = require('./utils')
 
 // SHOW
 exports.show = function(req, res) {
@@ -18,10 +19,10 @@ exports.show = function(req, res) {
     // Correção dos dados
     const teacher = {
         ...foundTeacher,
-        birth: "",
+        birth: age(foundTeacher.birth),
         //type_class: "",
         instruments: foundTeacher.instruments.split(","),
-        created_at: "",
+        created_at: new Intl.DateTimeFormat("pt-BR").format(foundTeacher.created_at),
     }
 
     return res.render("teachers/show", { teacher })
@@ -69,3 +70,29 @@ exports.post = function (req, res) {
     //return res.send(req.body)
 
 }
+
+// EDIT
+exports.edit = function(req, res) {
+    // Pegar um só instrutor:
+    const { id } = req.params
+
+    const foundTeacher = data.teachers.find(function(teacher){
+        return teacher.id == id
+    })
+
+    if(!foundTeacher) return res.send("teachers not default")
+
+    // Arrumando o dado
+    const teacher = {
+        ...foundTeacher,
+        birth: date(foundTeacher.birth)
+    }
+
+    // Tirei e pus para cima -> date(foundTeacher.birth)
+
+    return res.render('teachers/edit', {teacher})
+}
+
+
+
+    
