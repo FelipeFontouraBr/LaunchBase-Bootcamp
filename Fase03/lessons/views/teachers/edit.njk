@@ -12,6 +12,8 @@
                 <h3>Editar Instrutor</h3>
 
                 {% include 'teachers/fields.njk' %}
+
+                <input type="hidden" name="id" value="{{teacher.id}}">
                 
             </form>
         </section>
