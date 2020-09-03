@@ -21,11 +21,11 @@
       "created_at": 1596116731826
     },
     {
-      "id": 3,
+      "id": "3",
       "avatar_url": "https://source.unsplash.com/collection/415470/500x500",
-      "name": "Caroline",
+      "name": "Fontoura",
       "birth": 555120000000,
-      "select": "mestrado",
+      "select": "Ensino Médio Completo",
       "type_class": "À distância",
       "instruments": "Teclado, Piano",
       "created_at": 1598887311322
