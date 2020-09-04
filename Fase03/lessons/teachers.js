@@ -123,5 +123,12 @@ exports.put = function(req, res) {
     })
 }
 
+// DELETE
+exports.delete = function(req, res) {
+    const { id } = req
+
+    
+}
+
 
     
