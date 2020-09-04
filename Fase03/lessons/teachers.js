@@ -127,7 +127,9 @@ exports.put = function(req, res) {
 exports.delete = function(req, res) {
     const { id } = req
 
-    
+    const filteredTeachers = data.teachers.filter(function(teacher){
+        return teacher.id != id
+    })
 }
 
 
