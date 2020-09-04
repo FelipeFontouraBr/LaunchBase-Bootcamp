@@ -7,7 +7,7 @@
         <section class="avatar" style="background: url(https://source.unsplash.com/collection/415470/500x500) no-repeat center center / cover"></section>
 
         <section class="details">
-            <form class="card" method="POST" action="/teachers?_method=PUT">                
+            <form method="POST" action="/teachers?_method=PUT">                
 
                 <h3>Editar Instrutor</h3>
 
@@ -18,8 +18,11 @@
             </form>
 
             <form id="form-delete" action="/teachers?_method=DELETE" method="post">
+
                 <input type="hidden" name="id" value="{{teacher.id}}">
+
                 <button type="submit">Deletar</button>
+                
             </form>
         </section>
     </div>

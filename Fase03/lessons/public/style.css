@@ -182,3 +182,7 @@ a.button:hover {
 section {
     border-radius: 8px 0px 0px 8px;
 }
+
+#form-delete button[type="submit"] {
+    background-color: red;
+}
