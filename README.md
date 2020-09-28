@@ -26,6 +26,7 @@ Development of the challenges proposed during the Bootcamp LaunchBase,taught by 
 - Admin Project "Foodfy"
 - Persisting application data
 - Persisting data from the "Foodfy" Project
+-
 
 ### :trophy: Fase 04
 - Launchstore
